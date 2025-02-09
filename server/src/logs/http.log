@@ -43,3 +43,104 @@
 2025-02-09 15:12:47 [32minfo[39m: [32mDatabase connection is healthy[39m
 2025-02-09 15:12:47 [35mhttp[39m: [35mGET / 200 76 - 13.266 ms[39m
 2025-02-09 15:12:47 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 4.504 ms[39m
+2025-02-09 15:13:23 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:15:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:17:48 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:18:07 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:20:31 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:20:49 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:22:52 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:23:30 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:23:43 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:24:14 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:26:29 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:29:51 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:30:07 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:30:20 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:30:33 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:32:42 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:33:47 [35mhttp[39m: [35mPOST /api/auth/user-registration - - - - ms[39m
+2025-02-09 15:43:23 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:44:09 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:44:30 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:44:43 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 39 - 3.002 ms[39m
+2025-02-09 15:57:50 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:00:04 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:00:44 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:01:05 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:07:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:08:32 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:11:15 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:12:33 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 39 - 3.172 ms[39m
+2025-02-09 16:12:58 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:12:59 [32minfo[39m: [32mUser exists with phone number: 9876543210[39m
+2025-02-09 16:12:59 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 41 - 9.339 ms[39m
+2025-02-09 16:13:47 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:13:49 [32minfo[39m: [32mUser exists with phone number: 9876543210[39m
+2025-02-09 16:13:49 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 70 - 5.416 ms[39m
+2025-02-09 16:13:59 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 16:13:59 [32minfo[39m: [32mUser exists with phone number: 9876543210[39m
+2025-02-09 16:13:59 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 71 - 6.649 ms[39m
+2025-02-09 18:18:07 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:19:32 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:20:43 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:21:46 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:23:14 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:23:29 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:28:36 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:32:35 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:37:11 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:41:13 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:42:04 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:46:36 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:46:50 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:49:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:50:04 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:50:55 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:51:05 [31merror[39m: [31mError: validationResult is not defined[39m
+2025-02-09 18:51:05 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 43 - 9.308 ms[39m
+2025-02-09 18:51:40 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:51:45 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 57 - 5.371 ms[39m
+2025-02-09 18:52:30 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 57 - 4.414 ms[39m
+2025-02-09 18:52:36 [32minfo[39m: [32mUser exists with phone number: 9876543210[39m
+2025-02-09 18:52:36 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 71 - 35.253 ms[39m
+2025-02-09 18:52:54 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:53:44 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:53:50 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:54:37 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:55:01 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:55:08 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 116 - 4.409 ms[39m
+2025-02-09 18:55:21 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 152 - 4.925 ms[39m
+2025-02-09 18:55:56 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 116 - 2.568 ms[39m
+2025-02-09 18:56:51 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 18:56:51 [31merror[39m: [31mRegistration Error: res is not defined[39m
+2025-02-09 18:56:51 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 51 - 110.245 ms[39m
+2025-02-09 18:58:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:58:42 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 18:58:42 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 53 - 65.939 ms[39m
+2025-02-09 18:59:40 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 18:59:43 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 18:59:43 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 53 - 66.714 ms[39m
+2025-02-09 19:00:31 [32minfo[39m: [32mUser exists with phone number: 9876543210[39m
+2025-02-09 19:00:31 [35mhttp[39m: [35mPOST /api/auth/user-registration 400 71 - 7.346 ms[39m
+2025-02-09 19:01:07 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:01:34 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:01:46 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 19:01:46 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 53 - 141.062 ms[39m
+2025-02-09 19:02:44 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:02:59 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:03:06 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:03:09 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:03:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:03:42 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 19:03:42 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 53 - 74.272 ms[39m
+2025-02-09 19:04:20 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:04:45 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 19:04:45 [35mhttp[39m: [35mPOST /api/auth/user-registration 500 53 - 118.860 ms[39m
+2025-02-09 19:05:09 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:05:15 [32minfo[39m: [32mNo user found with phone number: 9876543218[39m
+2025-02-09 19:05:15 [35mhttp[39m: [35mPOST /api/auth/user-registration 201 105 - 105.772 ms[39m
+2025-02-09 19:05:39 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:05:44 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:06:11 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 19:06:18 [32minfo[39m: [32mServer is running at http://localhost:8080[39m

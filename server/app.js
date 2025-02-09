@@ -5,12 +5,14 @@ const { logger } = require("./src/configs/logger");
 const httpLogger = require("./src/middelware/http-logger.midelware");
 const db = require("./src/configs/database");
 
+const userRoutes = require('./src/routes/user.routes');
+
 dotenv.config();
 
 const port = process.env.PORT || 3000;
 const app = express();
 
-// Middleware
+
 app.use(
   cors({
     origin: "*",
@@ -18,9 +20,14 @@ app.use(
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
+
+
 app.use(express.json());
 app.use(httpLogger);
 
+app.use('/api/auth',userRoutes)
+
+//Health Check route;
 app.get("/", async (req, res) => {
   try {
     const result = await db.query("SELECT NOW()");
