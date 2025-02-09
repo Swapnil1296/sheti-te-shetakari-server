@@ -36,3 +36,7 @@
 2025-02-06 17:08:37 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
 2025-02-06 17:08:53 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
 2025-02-06 17:12:42 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:12:40 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-09 15:12:47 [32minfo[39m: [32mDatabase connection is healthy[39m
+2025-02-09 15:12:47 [35mhttp[39m: [35mGET / 200 76 - 13.266 ms[39m
+2025-02-09 15:12:47 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 4.504 ms[39m
