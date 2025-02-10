@@ -1,2 +1,3 @@
 2025-02-09 18:51:05 [31merror[39m: [31mError: validationResult is not defined[39m
 2025-02-09 18:56:51 [31merror[39m: [31mRegistration Error: res is not defined[39m
+2025-02-09 21:00:10 [31merror[39m: [31mError: Expected double-quoted property name in JSON at position 78[39m

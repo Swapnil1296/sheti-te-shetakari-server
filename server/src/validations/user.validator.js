@@ -28,4 +28,20 @@ const userRegistrationValidation = [
     .withMessage("Role must be either 'user' or 'admin'"),
 ];
 
-module.exports = { userRegistrationValidation };
+const userLoginValidation = [
+  body("phone")
+    .trim()
+    .notEmpty()
+    .withMessage("Phone number is required")
+    .matches(/^[0-9]{10}$/)
+    .withMessage("Phone number must be exactly 10 digits"),
+
+  body("password")
+    .trim()
+    .notEmpty()
+    .withMessage("Password is required")
+    .isLength({ min: 6 })
+    .withMessage("Password must be at least 6 characters long"),
+];
+
+module.exports = { userRegistrationValidation, userLoginValidation };

@@ -42,3 +42,5 @@
 2025-02-09 15:12:47 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 4.504 ms[39m
 2025-02-09 18:51:05 [31merror[39m: [31mError: validationResult is not defined[39m
 2025-02-09 18:56:51 [31merror[39m: [31mRegistration Error: res is not defined[39m
+2025-02-09 21:00:10 [31merror[39m: [31mError: Expected double-quoted property name in JSON at position 78[39m
+2025-02-09 21:18:10 [33mwarn[39m: [33mLogin failed: Incorrect password for user 9876543218[39m

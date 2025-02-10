@@ -7,7 +7,7 @@ const existingUser = async (phone) => {
       return { status: 400, message: "Phone number is required", user: null };
     }
 
-    const query = "SELECT full_name FROM users WHERE phone = $1";
+    const query = "SELECT * FROM users WHERE phone = $1";
     const result = await db.query(query, [phone]);
 
     if (result.rowCount > 0) {

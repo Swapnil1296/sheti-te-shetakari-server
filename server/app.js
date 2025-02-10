@@ -40,11 +40,41 @@ app.get("/", async (req, res) => {
     res.status(500).json({ error: "Failed to connect to database" });
   }
 });
+if (process.env.NODE_ENV === "test") {
+  const testRouter = express.Router();
+
+  testRouter.get("/test-error", (req, res, next) => {
+    const error = new Error("Test error");
+    next(error);
+  });
+
+  testRouter.get("/test-custom-error", (req, res, next) => {
+    const error = new Error("Custom error");
+    error.status = 400;
+    next(error);
+  });
+
+  testRouter.post("/test-json", (req, res) => {
+    res.json(req.body);
+  });
+
+  app.use("/test", testRouter);
+}
 
 // Error Handling Middleware
+app.use((req, res, next) => {
+  const error = new Error("Not Found");
+  error.status = 404;
+  next(error);
+});
+
+// Error Handler - should be last
 app.use((err, req, res, next) => {
   logger.error(`Error: ${err.message}`);
-  res.status(err.status || 500).json({ error: err.message || "Server Error" });
+  res
+    .status(err.status || 500)
+    .header("Content-Type", "application/json")
+    .json({ error: err.message || "Server Error" });
 });
 
 // Unhandled Promise Rejection Handling
@@ -65,3 +95,5 @@ app.listen(port, (err) => {
     );
   }
 });
+
+module.exports = app;
