@@ -1,6 +1,6 @@
 const request = require("supertest");
 const express = require("express");
-const app = require("../app");
+const createServer = require("../app");
 const { Client } = require("pg");
 const { logger } = require("../src/configs/logger");
 
@@ -30,11 +30,21 @@ describe("Express App Tests", () => {
   const mockClient = new Client();
 
   beforeAll(async () => {
-    server = app.listen(0);
+    app = createServer();
+    server = app.listen(8080);
   });
 
   afterAll(async () => {
-    await new Promise((resolve) => server.close(resolve));
+    if (server) {
+      await new Promise((resolve, reject) => {
+        server.close((err) => (err ? reject(err) : resolve()));
+      });
+    }
+
+    // Close the mock database connection
+    if (mockClient) {
+      await mockClient.end();
+    }
   });
 
   beforeEach(() => {

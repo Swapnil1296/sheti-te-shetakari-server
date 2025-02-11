@@ -203,3 +203,9 @@
 2025-02-10 12:41:14 [32minfo[39m: [32mDatabase connection is healthy[39m
 2025-02-10 12:41:14 [35mhttp[39m: [35mGET / 200 76 - 2.005 ms[39m
 2025-02-10 12:47:37 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-11 18:29:21 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-11 18:29:42 [32minfo[39m: [32mUser exists with phone number: 9876543218[39m
+2025-02-11 18:29:42 [32minfo[39m: [32mUser 9876543218 logged in successfully[39m
+2025-02-11 18:29:42 [35mhttp[39m: [35mPOST /api/auth/user-login 200 313 - 228.742 ms[39m
+2025-02-11 18:33:27 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
+2025-02-11 18:33:50 [32minfo[39m: [32mServer is running at http://localhost:8080[39m
